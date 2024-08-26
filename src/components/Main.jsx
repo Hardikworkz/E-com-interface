@@ -234,7 +234,7 @@ const Main = () => {
           <div className="product-info-first">
           <div className="product-info">
             <h4 className="subtitle">Our Picks</h4>
-            <h3 className="title">WMX Rubber Zebra sandal</h3></div>
+            <h3 className="title">WMX Classic Analog Watch</h3></div>
             <p className="price">$36</p>
           </div>
         </div>
