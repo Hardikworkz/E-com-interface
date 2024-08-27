@@ -566,3 +566,105 @@
   bottom: 48%;
   left: 2%;
 }
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .webpage {
+    flex-direction: column;
+  }
+
+  .SIDEBAR {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-right: none;
+    border-bottom: 2px solid rgb(233, 224, 224);
+  }
+
+  .Main {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .Navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .categories, .account, .search {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .first-card, .favourites-card, .second-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .third-cart {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .product-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .product-card {
+    width: 100%;
+  }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  .button-one, .button-two, .button-all, .button-men, .button-women {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .profilepic img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .search {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .filter {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  .banner-title {
+    font-size: 20px;
+  }
+
+  .banner-button {
+    width: 100%;
+    height: 40px;
+  }
+}
